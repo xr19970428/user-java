@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run Docker Container') {
             steps {
-                sh 'docker run -dp 3000:3000 user-java'
+                sh 'docker run -dp 5050:5050 user-java'
             }
           }
     }
